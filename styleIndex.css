@@ -1,0 +1,492 @@
+*
+{
+    font-family: sans-serif;
+    color: #fff;
+}
+
+body
+{
+    background:#222;
+}
+
+.header__responsive-ul, .header__responsiveButton-container
+{
+    display: none;
+}
+
+.grid-container
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 92px 1fr 100px;
+    grid-auto-rows: 1fr;
+}
+
+.ul__li a , i
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.skills__h3-container
+{
+    text-align: center;
+}
+
+.skills__h3
+{
+    display: inline-block;
+    border-bottom: 2px solid crimson;
+}
+
+.main__aboutMe-container
+{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.aboutMe__skills
+{
+    display: flex;
+    min-width: 400px;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    flex-wrap: wrap;
+}
+
+.aboutMe__whoami-container
+{
+    width: 500px;
+    min-width: 300px;
+}
+
+.aboutMe__skills-container
+{
+    width: 700px;
+}
+
+.card__logo
+{
+    background-color: #333;
+    font-size: 20px;
+    font-weight: 800;
+    color: #262626;
+    display: inline-block;
+    width: 100px;
+    transition: color 0.5s;
+}
+
+.card__logo-container
+{
+    text-align: center;
+}
+
+.skills__card
+{
+    background-color: #262626;
+    display: flex;
+    flex-flow: column;
+    width: 300px;
+    min-width: 150px;
+    padding: 8px;
+    border-bottom: 2px solid #262626;
+    transition: border 0.5s;
+    margin: 3px;
+    z-index: 50;
+}
+
+.skills__card:hover
+{
+    border-bottom: 2px solid crimson;
+} 
+
+.skills__card:hover .card__logo
+{
+    color: crimson;
+}
+
+.card__logo-container, .skills__paragraph-container
+{
+    margin: 5px;
+}
+
+.aboutMe__whoami
+{
+    background-color: #333;
+    margin-top: 5px;
+}
+
+
+.whoami__h3
+{
+    display: inline-block;
+    border-bottom: crimson 2px solid;
+}
+
+.main__aboutMe-item
+{
+    margin: 5px;
+}
+
+.whoami__h3-container
+{
+    text-align: center;
+}
+
+.whoami__paragraph
+{
+    text-align: justify;
+    padding: 10px;
+}
+
+.header
+{
+    grid-column: 1/4;
+    color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333e2;
+    flex-wrap: wrap;
+    z-index: 100;
+}
+
+.main__presentation-container
+{
+    display: flex;
+    flex-flow: column;
+}
+
+.presentation__img-container
+{
+    width: 100%;
+    height: 300px;
+    background-color: khaki;
+}
+
+.presentation__title-container
+{
+    padding: 5px;
+    /*display: flex;
+    flex-flow: row;
+    justify-content: center;*/
+    text-align: center;
+}
+
+.presentation__title
+{
+    font-family: "Big Shoulders Inline Display";
+    font-size: 45px;
+    color: crimson;
+}
+
+.presentation__img
+{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+.header strong
+{
+    color: crimson;
+}
+
+.header__h1-container
+{
+    font-size: 20px;
+}
+
+.header__ul
+{
+   align-self: flex-end;
+   margin-right: 20px;
+}
+
+.ul__li
+{
+   list-style-type: none;
+   color: currentColor;
+   transition: color 0.5s;
+}
+
+.ul__li:hover
+{
+    color: crimson;
+    cursor: pointer;
+}
+
+.ul__li:focus
+{
+    color:crimson;
+}
+
+.header__li-container
+{
+    display: flex;
+    width: 500px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+
+.main
+{
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+
+.footer
+{
+    grid-row: 3/4;
+    grid-column: 1/4;
+}
+
+.flex-container
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main__createdProjects-container
+{
+    width: 100%;
+    height: 250px;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.createdProjects__contents-container
+{
+    margin-top: 10px;
+}
+.createdProjects__h2-container
+{
+    text-align: center;
+}
+
+.createdProjects__h2
+{
+    display: inline;
+    animation: createdProjectsH2Anim 3s alternate infinite;
+}
+
+.createdProjects__h2::after
+{
+    content: "";
+    animation: createdProjectsH2Anim 3s alternate infinite;
+}
+
+.createdProjects__chargingBar-container
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.createdProjects__chargingBar
+{
+    width: 200px;
+    height: 20px;
+    border: crimson 1px solid;
+    padding: 2px;
+}
+
+.chargingBar__porcentage
+{
+    background-color: crimson;
+    width: 0%;
+    height: 100%;
+    animation: chargingBarProgress 5s alternate infinite;
+}
+
+.createdProjects__chargingBar:hover
+{
+    animation: Shaking 0.5s alternate-reverse infinite;
+}
+
+.createdProjects__paragraph-container
+{
+    background-color: #333;
+    margin: 5px;
+    text-align: center;
+}
+
+.createdProjects__h3
+{
+    display: inline-block;
+    border-bottom: 2px solid crimson;
+}
+
+.main__contacts-container
+{
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    margin-bottom: 5px;
+}
+
+.contacts__h3-container
+{
+    text-align: center;
+}
+
+.contacts__h3
+{
+    display: inline-block;
+    border-bottom: 2px solid crimson;
+}
+
+.contacts__cards-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contacts__card-items
+{
+    width: 300px;
+    min-width: 150px;
+    margin: 5px;
+    background-color: #262626;
+    text-align: center;
+    height: 300px;
+    border-bottom: #262626 2px solid;
+    transition: border 0.5s;
+    z-index: 50;
+}
+
+.contacts__card-items:hover
+{
+    border-bottom: crimson 2px solid;
+}
+
+.contacts__card-items:hover .contacts__card-logo
+{
+    color: crimson;
+}
+
+.contacts__card-logo
+{
+    font-size: 40px;
+    color: #444;
+    transition: color 0.5s;
+}
+
+@keyframes createdProjectsH2Anim
+{
+    0%
+    {
+        color: crimson;
+        content: "";
+    }
+
+    25%
+    {
+        content:".";
+    }
+
+    50%
+    {
+        color: rgb(172, 16, 47);
+        content: "..";
+    }
+
+    100%
+    {
+        color: rgb(247, 56, 94);
+        content: "...";
+    }
+}
+
+@keyframes chargingBarProgress
+{
+    0%
+    {
+        width: 0%;
+        height: 100%;
+    }
+
+    100%
+    {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@keyframes Shaking
+{
+    0%
+    {
+        transform: translateY(0);
+        transform: translateX(0);
+    }
+    15%
+    {
+        transform: translateY(1px);
+        transform: translateX(1px);
+    }
+    25%
+    {
+        transform: translateX(-1px);
+    }
+    50%
+    {
+        transform: translateY(2px);
+    }
+    75%
+    {
+        transform: translateX(3px);
+    }
+    100%
+    {
+        transform: translateY(0);
+        transform: translateX(0);
+    }
+}
+
+@media screen and (max-width: 802px)
+{
+    .grid-container
+    {
+        grid-template-rows: 125px 1fr 100px;
+    }
+
+
+}
+
+@media screen and (max-width: 530px)
+{
+    .header__ul
+    {
+        display: none;
+    }
+    .grid-container
+    {
+        grid-template-rows: 100px 1fr 100px;
+    }
+
+    .header
+    {
+        justify-content: center;
+        align-content: center;
+    }
+
+    .skills__card
+    {
+        transform: scale(0.8);
+    }
+
+    .header__h1-container
+    {
+        font-size: smaller;
+        text-align: center;
+    }
+}
