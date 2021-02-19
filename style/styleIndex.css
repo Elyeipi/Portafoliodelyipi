@@ -9,6 +9,7 @@ body
     background:#222;
 }
 
+
 .header__responsive-ul, .header__responsiveButton-container
 {
     display: none;
@@ -147,7 +148,7 @@ body
     position: sticky;
     top: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /*space-between when i create more projects*/
     background-color: #333333e2;
     flex-wrap: wrap;
     z-index: 100;
@@ -163,7 +164,6 @@ body
 {
     width: 100%;
     height: 300px;
-    background-color: khaki;
 }
 
 .presentation__title-container
@@ -201,15 +201,16 @@ body
 
 .header__ul
 {
-   align-self: flex-end;
-   margin-right: 20px;
+    display: none;
+    align-self: flex-end;
+    margin-right: 20px;
 }
 
 .ul__li
 {
-   list-style-type: none;
-   color: currentColor;
-   transition: color 0.5s;
+     list-style-type: none;
+    color: currentColor;
+    transition: color 0.5s;
 }
 
 .ul__li:hover
@@ -241,6 +242,18 @@ body
 {
     grid-row: 3/4;
     grid-column: 1/4;
+    text-align: center;
+    background-image: url(https://www.fromanniek.com/wp-content/uploads/2018/06/0587f251249217.58e7079c0894c.gif);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.footer__paragraph-container
+{
+    background-color: rgba(51, 51, 51, 0.527);
+    height: 100%;
 }
 
 .flex-container
@@ -453,10 +466,10 @@ body
 
 @media screen and (max-width: 802px)
 {
-    .grid-container
+    /*.grid-container
     {
         grid-template-rows: 125px 1fr 100px;
-    }
+    }*/
 
 
 }
