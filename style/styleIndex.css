@@ -37,7 +37,7 @@ body
 .skills__h3
 {
     display: inline-block;
-    border-bottom: 2px solid crimson;
+    border-bottom: 2px solid #fa111b;
 }
 
 .main__aboutMe-container
@@ -99,12 +99,12 @@ body
 
 .skills__card:hover
 {
-    border-bottom: 2px solid crimson;
+    border-bottom: 2px solid #fa111b;
 } 
 
 .skills__card:hover .card__logo
 {
-    color: crimson;
+    color: #fa111b;
 }
 
 .card__logo-container, .skills__paragraph-container
@@ -122,7 +122,7 @@ body
 .whoami__h3
 {
     display: inline-block;
-    border-bottom: crimson 2px solid;
+    border-bottom: #fa111b 2px solid;
 }
 
 .main__aboutMe-item
@@ -179,7 +179,7 @@ body
 {
     font-family: "Big Shoulders Inline Display";
     font-size: 45px;
-    color: crimson;
+    color: #fa111b;
 }
 
 .presentation__img
@@ -191,7 +191,7 @@ body
 
 .header strong
 {
-    color: crimson;
+    color: #fa111b;
 }
 
 .header__h1-container
@@ -215,13 +215,13 @@ body
 
 .ul__li:hover
 {
-    color: crimson;
+    color: #fa111b;
     cursor: pointer;
 }
 
 .ul__li:focus
 {
-    color:crimson;
+    color:#fa111b;
 }
 
 .header__li-container
@@ -306,13 +306,13 @@ body
 {
     width: 200px;
     height: 20px;
-    border: crimson 1px solid;
+    border: #fa111b 1px solid;
     padding: 2px;
 }
 
 .chargingBar__porcentage
 {
-    background-color: crimson;
+    background-color: #fa111b;
     width: 0%;
     height: 100%;
 }
@@ -332,7 +332,7 @@ body
 .createdProjects__h3
 {
     display: inline-block;
-    border-bottom: 2px solid crimson;
+    border-bottom: 2px solid #fa111b;
 }
 
 .main__contacts-container
@@ -351,7 +351,7 @@ body
 .contacts__h3
 {
     display: inline-block;
-    border-bottom: 2px solid crimson;
+    border-bottom: 2px solid #fa111b;
 }
 
 .contacts__cards-container
@@ -376,12 +376,12 @@ body
 
 .contacts__card-items:hover
 {
-    border-bottom: crimson 2px solid;
+    border-bottom: #fa111b 2px solid;
 }
 
 .contacts__card-items:hover .contacts__card-logo
 {
-    color: crimson;
+    color: #fa111b;
 }
 
 .contacts__card-logo
@@ -395,7 +395,7 @@ body
 {
     0%
     {
-        color: crimson;
+        color: #fa111b;
         content: "";
     }
 
