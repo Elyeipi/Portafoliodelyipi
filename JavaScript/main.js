@@ -11,4 +11,4 @@ function LoadBar()
 }
 
 
-window.addEventListener('scroll', LoadBar)
+window.addEventListener('scroll', LoadBar);
