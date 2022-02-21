@@ -50,6 +50,11 @@ body
     flex-wrap: wrap;
 }
 
+.AnimationCanvas{
+    width: inherit;
+    height: inherit;
+}
+
 .aboutMe__skills
 {
     display: flex;
@@ -160,6 +165,7 @@ body
 
 .presentation__img-container
 {
+    width: 100%;
     height: 300px;
 }
 
