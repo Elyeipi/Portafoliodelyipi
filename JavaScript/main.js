@@ -43,15 +43,15 @@ Pcontainer.appendChild(app.view);
 /* Code: */
 
 squareSprite.beginFill(0xaa2233);
-squareSprite.drawRect(20, 20, 200, 200);
+squareSprite.drawRect(40, 40, 200, 200);
 squareSprite.endFill();
 
 square1Sprite.beginFill(0xaa2233);
-square1Sprite.drawRect(20, 20, 200, 200);
+square1Sprite.drawRect(80, 80, 200, 200);
 square1Sprite.endFill();
 
 square2Sprite.beginFill(0xaa2233);
-square2Sprite.drawRect(20, 20, 200, 200);
+square2Sprite.drawRect(160, 160, 200, 200);
 square2Sprite.endFill();
 
 squareSprite.filters = [new PIXI.filters.BlurFilter(25)];
