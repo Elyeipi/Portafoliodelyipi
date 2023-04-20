@@ -46,6 +46,14 @@ squareSprite.beginFill(0xaa2233);
 squareSprite.drawRect(20, 20, 200, 200);
 squareSprite.endFill();
 
+square1Sprite.beginFill(0xaa2233);
+square1Sprite.drawRect(20, 20, 200, 200);
+square1Sprite.endFill();
+
+square2Sprite.beginFill(0xaa2233);
+square2Sprite.drawRect(20, 20, 200, 200);
+square2Sprite.endFill();
+
 squareSprite.filters = [new PIXI.filters.BlurFilter(25)];
 square1Sprite.filters = [new PIXI.filters.BlurFilter(13)];
 square2Sprite.filters = [new PIXI.filters.BlurFilter(5)];
