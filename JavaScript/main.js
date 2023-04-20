@@ -43,11 +43,11 @@ Pcontainer.appendChild(app.view);
 /* Code: */
 
 squareSprite.beginFill(0xaa2233);
-squareSprite.drawRect(40, 40, 200, 200);
+squareSprite.drawRect(40, 40, 800, 800);
 squareSprite.endFill();
 
 square1Sprite.beginFill(0xaa2233);
-square1Sprite.drawRect(80, 80, 200, 200);
+square1Sprite.drawRect(80, 80, 400, 400);
 square1Sprite.endFill();
 
 square2Sprite.beginFill(0xaa2233);
